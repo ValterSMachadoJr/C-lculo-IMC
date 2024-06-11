@@ -1,0 +1,25 @@
+h1{
+ font-size: 3rem;
+ font-weight: bold;
+}
+.peso{
+   color: blue;
+   font-size: 2rem;
+}
+
+.altura{
+    color: green;
+    font-size: 2rem;
+}
+
+.imc{
+    color: red;
+    font-size: 2rem;
+}
+
+.resultado{
+   color: red;
+   font-size: 3rem;
+   font-weight: bold;
+
+}

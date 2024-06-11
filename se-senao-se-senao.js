@@ -9,24 +9,24 @@ let imc2 = document.querySelector(".imc");
 
 if (imc < 18.9){
   let resultado = document.querySelector(".resultado")
-  resultado.textContent = `Peso está baixo! Seu imc é ${imc}`
+  resultado.textContent = `Peso está baixo! Seu IMC é ${imc}`
     
 }else if (imc <= 24.9) {
   let resultado = document.querySelector(".resultado")
-  resultado.textContent = `Seu Peso está Normal! Seu imc é ${imc}`
+  resultado.textContent = `Seu Peso está Normal! Seu IMC é ${imc}`
 }else if (imc <= 29.9){
    let resultado = document.querySelector(".resultado")
-  resultado.textContent = `Você está na categoria de Sobrepeso! Seu imc é ${imc}`
+  resultado.textContent = `Você está na categoria de Sobrepeso! Seu IMC é ${imc}`
 }
 else if(imc <= 34.9){
   let resultado = document.querySelector(".resultado")
-  resultado.textContent = `Você está categoria de Obesidade (Grau I)! Seu imc é ${imc}`
+  resultado.textContent = `Você está categoria de Obesidade (Grau I)! Seu IMC é ${imc}`
 }
 else if (imc <= 39.9){
     let resultado = document.querySelector(".resultado")
-    resultado.textContent = `Voçê está categoria Obesidade Severa(Grau II)! Seu imc é ${imc}`
+    resultado.textContent = `Você está categoria Obesidade Severa(Grau II)! Seu IMC é ${imc}`
 }
 else{
     let resultado = document.querySelector(".resultado")
-    resultado.textContent = `Voçê está categoria Obesidade Mórbida(Grau III! Seu imc é ${imc}`
+    resultado.textContent = `Você está categoria Obesidade Mórbida(Grau III! Seu IMC é ${imc}`
 }
